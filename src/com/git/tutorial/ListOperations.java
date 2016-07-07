@@ -10,5 +10,10 @@ public class ListOperations {
 
     public static void main(String[] args) {
         List<Integer> coins = new ArrayList<>();
+        coins.add(1);
+        coins.add(5);
+        for(int x : coins){
+            System.out.println("Coin of Rs."+x);
+        }
     }
 }
